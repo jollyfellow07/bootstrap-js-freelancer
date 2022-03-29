@@ -13,7 +13,7 @@ function prezzo(event){
 
 
     let coupon = document.getElementById("inputSconto").value;
-    let sconto = ["YHDNU32","JANJC63","PWKCN25","SJDPO96","POCIE24"]; 
+    let sconto = ["YHDNU32","JANJC63","PWKCN25","SJDPO96","POCIE24"];
 
        if(lavoro == "1"){
             
@@ -41,23 +41,12 @@ function prezzo(event){
                 }
                 
          }
-         /*   switch (tipoLavoro){
-                case "1":
-                    prezzo=20.5*ore;
-                    break;
-                case "2":
-                    prezzo=15.3*ore;
-                    break;
-                case "3":
-                    prezzo=33.6*ore;
-                    break;
-            }*/
             
 
             
   /*approssimo il risultato*/
   
 risultato = risultato.toFixed(2);
-document.getElementById("prezzoFinale").innerHTML = risultato; 
+document.getElementById("prezzoFinale").innerHTML = risultato + "\u20AC"; 
 
         }
