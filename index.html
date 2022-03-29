@@ -113,8 +113,64 @@
     </main>
 
     <!--******************************************FORM*************************************-->
-    <footer>
+    <footer class="bg-info container-fluid">
+        <div class="row justify-content-center mx-5">
+          <div class="col-6 text-center my-3">
+            <h2>WANT AN OFFER?</h2>
+          </div>
+        </div>
+      <form >
+        <div class="row container mx-4 g-4 row">
+          <!--******************************************Nome e Cognome*************************************-->
+          <div class="col-6">
+            <p>First name</p>
+            <input type="text" class="form-control" placeholder="First name">
+          </div>
+          <div class="col-6">
+            <p>Last name</p>
+            <input type="text" class="form-control" placeholder="Last name">
+          </div>
+          
+          <!--******************************************Email e Ore*************************************-->
+          <div class="col-6">
+            <p>Email</p>
+            <input type="text" class="form-control" placeholder="Email">
+          </div>
+          <div class="col-6">
+            <p>Hours requested</p>
+            <input type="number" class="form-control" placeholder="Hours requested">
+        </div>
 
+        <!--******************************************Tipo di lavoro e CODICE SCONTO*************************************-->
+        <div class="col-6">
+          <p>Type of work</p>
+          <select id="" class="form-control">
+            <option selected>Choose...</option>
+            <option id="Backend">Backend</option>
+            <option id="Frontend">Frontend</option>
+            <option id="Analisi">Analisi progettuale</option>
+           </select>
+        </div>
+        <div class="col-6">
+          <p>Discount Code</p>
+          <input type="text" class="form-control" id="inputSconto">
+        </div>
+      
+      <!--******************************************MESSAGGIO *************************************-->
+      <div class="form-group">
+        <p>Message</p>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <!--******************************************Bottone Submit *************************************-->
+      <div class="col-12 text-center">
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+    
+    <br> <br>
+    <h2 id="prezzoFinale"></h2>
+    <br> <br>
+  </div>
+      </form>
     </footer>
 
   
