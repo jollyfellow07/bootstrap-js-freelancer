@@ -113,7 +113,8 @@
     </main>
 
     <!--******************************************FORM*************************************-->
-    <footer class="bg-info container-fluid">
+   <div>
+    <div class="bg-info container-fluid">
         <div class="row justify-content-center mx-5">
           <div class="col-6 text-center my-3">
             <h2>WANT AN OFFER?</h2>
@@ -145,7 +146,7 @@
         <div class="col-12 col-md-6">
           <p>Type of work</p>
           <select id="lavoro" class="form-select">
-            <option selected>Choose...</option>
+            <option selected value="0">Choose...</option>
             <option value="1" >Backend</option>
             <option value="2" >Frontend</option>
             <option value="3" >Analisi progettuale</option>
@@ -163,16 +164,26 @@
       </div>
       <!--******************************************Bottone Submit *************************************-->
       <div class="col-12 text-center">
-      <button type="button" class="btn btn-primary" id="submit" >Submit</button>
+      <button type="button" class="btn btn-warning" id="submit" >Send</button>
     </div>
     
-    <br> <br>
+    
     <h2 id="prezzoFinale"></h2>
-    <br> <br>
+  </div>
   </div>
       </form>
-    </footer>
-
+    </div>
+    <div class="bg-dark container-fluid">
+      <div class=" row justify-content-center p-4 text-center text-secondary">
+        <h2>LOCATION</h2>
+        <p>2215 John Daniel Drive</p>
+        <p>Clark, MO 65243</p>
+      </div>
+    </div>
+    <!-- Copyright-->
+    <div class="py-4 text-secondary bg-dark text-center">
+      <small>Copyright &copy; Your Website 2021</small>
+  </div>
   
 
 
